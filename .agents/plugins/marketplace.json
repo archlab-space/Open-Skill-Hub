@@ -1,0 +1,20 @@
+{
+  "name": "open-skill-hub",
+  "interface": {
+    "displayName": "Open Skill Hub"
+  },
+  "plugins": [
+    {
+      "name": "open-skill-hub-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "open-skill-hub",
+  "description": "Personal AI skill library organized into domain-specific plugins",
+  "owner": {
+    "name": "devasher",
+    "email": "hlxstc680@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "open-skill-hub-writing",
+      "description": "Writing and content strategy skills: X post drafting and content workflows for AI coding agents",
+      "source": "./plugins/writing",
+      "author": {
+        "name": "devasher",
+        "email": "hlxstc680@gmail.com"
+      }
+    }
+  ]
+}

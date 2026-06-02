@@ -1,0 +1,35 @@
+name: Sync Registry
+
+on:
+  push:
+    branches: [main]
+    paths: ['plugins/**']
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          token: ${{ secrets.REGISTRY_PAT }}
+          fetch-depth: 0
+
+      - name: Install jq
+        run: sudo apt-get install -y jq
+
+      - name: Sync registry files
+        run: |
+          chmod +x scripts/sync-registry.sh
+          scripts/sync-registry.sh
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .claude-plugin/marketplace.json .agents/plugins/marketplace.json README.md
+          if git diff --staged --quiet; then
+            echo "No registry changes to commit."
+          else
+            git commit -m "chore: sync registry files"
+            git push
+          fi

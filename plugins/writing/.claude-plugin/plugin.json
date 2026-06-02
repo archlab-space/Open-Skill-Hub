@@ -1,0 +1,17 @@
+{
+  "name": "open-skill-hub-writing",
+  "description": "Writing and content strategy skills: X post drafting and content workflows for AI coding agents",
+  "version": "0.6.0",
+  "author": {
+    "name": "devasher",
+    "email": "hlxstc680@gmail.com"
+  },
+  "homepage": "https://github.com/archlab-space/Open-Skill-Hub",
+  "repository": "https://github.com/archlab-space/Open-Skill-Hub",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "writing",
+    "social-media"
+  ]
+}

@@ -1,0 +1,20 @@
+name: Version Check
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  version-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 0
+
+      - name: Check version bumps
+        env:
+          BASE_REF: ${{ github.event.pull_request.base.sha }}
+        run: |
+          chmod +x scripts/check-version-bump.sh
+          scripts/check-version-bump.sh

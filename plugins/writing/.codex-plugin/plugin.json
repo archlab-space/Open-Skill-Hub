@@ -1,0 +1,41 @@
+{
+  "name": "open-skill-hub-writing",
+  "version": "0.6.0",
+  "description": "Writing and content strategy skills for AI coding agents.",
+  "author": {
+    "name": "devasher",
+    "email": "hlxstc680@gmail.com",
+    "url": "https://archlab.space"
+  },
+  "homepage": "https://github.com/archlab-space/Open-Skill-Hub",
+  "repository": "https://github.com/archlab-space/Open-Skill-Hub",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "writing",
+    "social-media"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Writing",
+    "shortDescription": "Writing and content strategy workflows",
+    "longDescription": "Open Skill Hub Writing packages reusable writing and content strategy skills for AI coding agents.",
+    "developerName": "devasher",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Turn this idea into a strong X post."
+    ],
+    "websiteURL": "https://github.com/archlab-space/Open-Skill-Hub",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "brandColor": "#10A37F",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/icon.png",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,29 @@
+name: Clawhub Publish
+
+on:
+  push:
+    branches: [main]
+    paths: ['plugins/**']
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+        with:
+          fetch-depth: 2
+
+      - name: Install clawhub CLI
+        run: npm i -g clawhub
+
+      - name: Authenticate clawhub
+        run: clawhub login --token "$CLAWHUB_TOKEN"
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+
+      - name: Publish changed skills
+        env:
+          CLAWHUB_TOKEN: ${{ secrets.CLAWHUB_TOKEN }}
+        run: |
+          chmod +x scripts/clawhub-publish.sh
+          scripts/clawhub-publish.sh
