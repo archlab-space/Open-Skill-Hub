@@ -5,7 +5,7 @@
   },
   "plugins": [
     {
-      "name": "open-skill-hub-writing",
+      "name": "writing",
       "source": {
         "source": "local",
         "path": "./plugins/writing"
