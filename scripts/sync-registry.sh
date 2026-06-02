@@ -39,7 +39,7 @@ for plugin_dir in "$PLUGINS_DIR"/*/; do
     '{name: $name, description: $description, source: $source, author: {name: $aname, email: $aemail}}')
 
   codex_entry=$(jq -n \
-    --arg name "$domain" \
+    --arg name "$name" \
     --arg path "./plugins/$domain" \
     '{name: $name, source: {source: "local", path: $path}, policy: {installation: "AVAILABLE", authentication: "ON_INSTALL"}, category: "Productivity"}')
 
