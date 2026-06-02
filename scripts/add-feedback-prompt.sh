@@ -4,7 +4,7 @@
 set -euo pipefail
 
 PLUGIN_DIR="${1:?Usage: $0 <plugin-dir>}"
-ISSUES_URL="https://github.com/archlab-space/Open-Skill-Hub-New/issues"
+ISSUES_URL="https://github.com/archlab-space/open-skill-hub/issues"
 DATE=$(date +%Y-%m-%d)
 
 README_SECTION=$(cat <<'SECTION'

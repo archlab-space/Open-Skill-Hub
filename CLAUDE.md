@@ -202,7 +202,7 @@ Every skill must include:
 - A `## Feedback & Contributions` section at the bottom of `README.md` linking to the GitHub issue tracker.
 - A `## Feedback` section at the bottom of `SKILL.md` instructing the agent to surface the contribution link only when the user expresses an unmet need or dissatisfaction. Never surface it in normal interactions.
 
-Use this exact link: `https://github.com/archlab-space/Open-Skill-Hub-New/issues`
+Use this exact link: `https://github.com/archlab-space/open-skill-hub/issues`
 
 ## Writing Standards
 

@@ -7,8 +7,8 @@
     "email": "hlxstc680@gmail.com",
     "url": "https://archlab.space"
   },
-  "homepage": "https://github.com/archlab-space/Open-Skill-Hub-New",
-  "repository": "https://github.com/archlab-space/Open-Skill-Hub-New",
+  "homepage": "https://github.com/archlab-space/open-skill-hub",
+  "repository": "https://github.com/archlab-space/open-skill-hub",
   "license": "MIT",
   "keywords": [
     "skills",
@@ -30,7 +30,7 @@
     "defaultPrompt": [
       "Turn this idea into a strong X post."
     ],
-    "websiteURL": "https://github.com/archlab-space/Open-Skill-Hub-New",
+    "websiteURL": "https://github.com/archlab-space/open-skill-hub",
     "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
     "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
     "brandColor": "#10A37F",

@@ -43,4 +43,4 @@ Reddit self-promotion rules vary by subreddit; the skill always reminds you to c
 
 ## Feedback & Contributions
 
-Found a gap or have a suggestion? [Open an issue or PR](https://github.com/archlab-space/Open-Skill-Hub-New/issues) — improvements are welcome.
+Found a gap or have a suggestion? [Open an issue or PR](https://github.com/archlab-space/open-skill-hub/issues) — improvements are welcome.

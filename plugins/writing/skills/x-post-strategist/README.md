@@ -38,4 +38,4 @@ For real-time, financial, legal, medical, political, or other high-stakes topics
 
 ## Feedback & Contributions
 
-Found a gap or have a suggestion? [Open an issue or PR](https://github.com/archlab-space/Open-Skill-Hub-New/issues) — improvements are welcome.
+Found a gap or have a suggestion? [Open an issue or PR](https://github.com/archlab-space/open-skill-hub/issues) — improvements are welcome.

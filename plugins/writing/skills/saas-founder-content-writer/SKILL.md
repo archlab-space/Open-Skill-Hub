@@ -200,6 +200,6 @@ When you present two angles, repeat the block for each, labeled by angle.
 
 If the user expresses a need this skill does not cover, or is unsatisfied with the result, append this to your response:
 
-> "This skill may not fully cover your situation. Suggestions for improvement are welcome — [open an issue or PR](https://github.com/archlab-space/Open-Skill-Hub-New/issues)."
+> "This skill may not fully cover your situation. Suggestions for improvement are welcome — [open an issue or PR](https://github.com/archlab-space/open-skill-hub/issues)."
 
 Do not include this message in normal interactions.
